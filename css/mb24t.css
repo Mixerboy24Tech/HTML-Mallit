@@ -1,0 +1,139 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Fontti */
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+
+
+
+.wrap {
+ 
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    background-color: #ff9900;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+    .wrap img {
+        float: left;
+        height: 80%;
+    }
+
+    .wrap h3 {
+        padding: 0px;
+        margin: 0px;
+        line-height: 50px;
+    }
+
+
+#content {
+    height: 455px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cccccc;
+}
+
+#footer{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    background-color: #ff9900;
+} 
+
+/* Valikko */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #000000
+}
+
+li {
+    float: left;
+
+}
+
+    li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 14px 15px;
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+li a:hover {
+    background-color: #808080
+}
+
+p {
+    font-family: 'Share Tech Mono', monospace;
+    color: #000000;
+    margin: 10px;
+
+}
+
+h1 {
+    font-size: 40%;
+}
+
+
+
+.toggle-box {
+    display: none;
+}
+
+    .toggle-box + label {
+        cursor: pointer;
+        display: block;
+        font-family: 'Share Tech Mono', monospace;
+        font-weight: bold;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+        .toggle-box + label + div {
+            display: none;
+            margin-bottom: 10px;
+        }
+
+    .toggle-box:checked + label + div {
+        display: block;
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+    .toggle-box + label:before {
+        background-color: #4F5150;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        color: #FFFFFF;
+        content: "+";
+        display: block;
+        float: left;
+        font-family: 'Share Tech Mono', monospace;
+        font-weight: bold;
+        height: 20px;
+        line-height: 20px;
+        margin-right: 5px;
+        text-align: center;
+        width: 20px;
+    }
+
+    .toggle-box:checked + label:before {
+        content: "\2212";
+    }
+
+
+h2 {
+    font-family: 'Share Tech Mono', monospace;
+}
